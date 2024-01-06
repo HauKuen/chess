@@ -50,7 +50,6 @@ class CollectPipeline:
         self.board = Board()
         self.game = Game(self.board)
         # 对弈参数
-        self.policy_value_net = None
         self.temp = 1  # 温度
         self.n_playout = int(config.get('Game', 'play_out'))  # 每次移动的模拟次数
         self.c_puct = int(config.get('Train', 'c_puct'))  # u的权重

@@ -156,7 +156,6 @@ class MCTS(object):
         return 'MCTS'
 
 
-# 基于MCTS的AI玩家
 class MCTSPlayer(object):
 
     def __init__(self, policy_value_function, c_puct=5, n_playout=2000, is_selfplay=0):
