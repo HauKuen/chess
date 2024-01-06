@@ -7,7 +7,6 @@ from chess_game import Board, Game, action_to_id, id_to_action, flip_map
 from montecarlo import MCTSPlayer
 from net import PolicyValueNet
 import configparser
-import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 config = configparser.ConfigParser()
