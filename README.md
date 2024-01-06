@@ -1,1 +1,1 @@
-正在开发中的一个象棋AI
+A Chinese chess AI in development.
